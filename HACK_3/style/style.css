@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+
+header{
+    background-color: var(--bg-blue);
+    height: 140px;
+}
+
+main{
+    background-color: var(--bg-wine);
+    height: 280px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 200px 0 200px;
+}
+
+section > *:not(:nth-child(3n+1)) {
+    flex: 1 1;
+}
+
+section > *:nth-child(3n+2) {
+    margin-right: 10px;
+}
+
+div {
+    background: var(--bg-wine);
+    height: 120px;
+    width: 1000px;
+    margin: 10px 50px 0 0;
+    width: 100%;
+}
+footer{
+    background-color: var(--bg-wine);
+    height: 100px;
+    margin: 10px 0 10px 0;
+}
