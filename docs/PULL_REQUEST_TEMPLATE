@@ -1,10 +1,10 @@
 # Tecnología
-- [ ] HTML
-- [ ] CSS3
-- [ ] docs
+- [X] HTML
+- [X] CSS3
+- [X] docs
 
 # Seleccione el tipo de actividad
-- [ ] Feature
+- [X] Feature
 - [ ] Changes
 - [ ] Hotfix
 - [ ] Refactor
