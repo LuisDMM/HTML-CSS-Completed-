@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+
+header{
+    background-color: var(--bg-blue);
+    height: 140px;
+    width: 100%;
+    float: left;
+}
+
+main{
+    background-color: var(--bg-wine);
+    height: 280px;
+    width: 100%;
+    float: left;
+}
+
+div{
+    background-color: var(--bg-wine);
+    height: 120px;
+    width: 1000px;
+    margin: 10px 50px 0 0;
+    float: left;
+}
+
+footer{
+    background-color: var(--bg-wine);
+    height: 100px;
+    width: 98%;
+    margin: 10px 10px 0 15px;
+    float: left;
+}
